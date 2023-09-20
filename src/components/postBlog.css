@@ -1,0 +1,51 @@
+.BlogForm{
+text-align: left;
+}
+label{
+    height: 200px;
+}
+.BlogForm .title{
+    width: 100%;
+    
+    padding: 5px;
+}
+.BlogForm .author{
+    width: 100%;
+    padding: 5px;
+}
+.BlogForm .content{
+    width: 100%;
+    height: 250px;
+}
+
+.BlogForm button{
+    font-size: 1rem;
+    padding: 9px;
+    margin: 10px;
+    background-color: rgb(63, 236, 193);
+    border: none;
+}
+.BlogForm button:hover{
+    background-color:rgb(79, 207, 79);
+    font-size: 1.5rem;
+}
+
+.postcontainer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .BlogForm h1{
+        text-align: center;
+        }
+        .postcontainer{
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            height: 90vh;
+        }
+        
+    }

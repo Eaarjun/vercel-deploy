@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-item{
+    padding: 10px;
+}
+
+.flex-item img {
+    width: 100%;
+    margin: 5px;
+ }
+
+ .flex-item p{
+    text-align: center;
+ }
+ @media only screen and (max-width: 768px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+ }
