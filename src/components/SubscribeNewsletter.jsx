@@ -14,8 +14,7 @@ const SubscribeNewsletter = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     
-    fetch('https://travel-blog-5x6n.onrender.com/email',{
-      mode:"cors",  
+    fetch('https://travel-blog-5x6n.onrender.com/email',{ 
     method:"POST",
       headers:{
         "Content-Type":"application/json"
