@@ -16,7 +16,7 @@ const Blog = () => {
   
     useEffect(() => {
       blogPost();
-    });
+    }[]);
   return (
     <>
       <h1 className="heading" id="blog">Blog</h1>
