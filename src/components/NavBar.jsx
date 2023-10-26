@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <>
     <nav>
-      <p><a href="#"></a>Travel</p>
+      <p><a href="#"></a>Travelage</p>
       <div className="menu" onClick={()=>{
         setMenuOpen(!menuOpen)
       }}>
